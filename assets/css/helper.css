@@ -1,0 +1,37 @@
+:root {
+    --color-primary: #f6d200;
+    --color-white: #fff;
+    --color-dark: #000;
+    --color-gray: #ededed;
+    --color-gold: #daa520;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+a:link,a:visited{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.heading {
+    color: var(--color-dark);
+    margin: 30px 0;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 36px;
+}
+
+a{
+    display: inline-block;
+}
